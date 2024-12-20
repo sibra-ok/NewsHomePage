@@ -1,0 +1,302 @@
+
+.attribution { 
+font-size: 11px;
+ text-align: center;
+ }
+.attribution a {
+ color: hsl(228, 45%, 44%);
+ }
+.menu{
+display: flex;
+justify-content: space-between;
+}
+a:hover{
+color: brown;
+}
+a{
+margin-right: 20px;
+}
+.grid{
+display: grid;
+grid-row-gap: 37;
+gap: 30px;
+grid-column-gap: 0px;
+}
+h1{
+letter-spacing: 2px;
+word-spacing: 2px;
+font-size: 40px;
+margin-top: 6px;
+}
+.nav{
+margin-right: 40px;
+}
+.container{
+margin-left: 50px;
+}
+.two{
+width:300px;
+color: white;
+background-color: black;
+}
+h3,h5,h2{
+margin-left: 15px;
+}
+h2:hover{
+color: rgb(178, 136, 28);
+}
+h3:hover{
+color: rgb(178, 136, 28);
+}
+button:hover{
+background-color: black;
+color: white;
+}
+.One{
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.two{
+grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 1;
+grid-row-end: 3;
+margin-right: 55px;
+margin-left: 0px;
+margin-bottom: 10px;
+}
+.third{
+height: max-content;
+width: max-content;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.fourth{
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+width:340px;
+background-color:rgb(255, 255, 255)
+}
+button,p{
+margin-left: 0px;
+}
+.fifth{
+grid-column-start: 1;
+grid-column-end:2;
+grid-row-start: 3;
+grid-row-end: 4;
+display: flex;
+width: 360px;
+}
+.sixth{
+display: flex;
+flex-direction: column;
+margin-left: 16px;
+line-height: -0px;
+margin-top: -10px;
+}
+.seventh{
+grid-column-start:2;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+display: flex;
+width: 340px;
+}
+.eight{
+display: flex;
+flex-direction: column;
+margin-left: 16px;
+line-height: -0px;
+margin-top: -10px;
+}
+.nine{
+grid-column-start: 4;
+grid-column-end: 5;
+grid-row-start: 3;
+grid-row-end: 4;
+display: flex;
+width: 360px;
+}
+.ten{
+display: flex;
+flex-direction: column;
+margin-left: 16px;
+line-height: -0px;
+margin-top: -10px;
+}
+h4:hover{
+color: red;
+}
+
+.logo{
+width: 40px;
+}
+
+@media screen and (max-width: 414px){
+
+.logo{
+width: 25px;
+height: 18px;
+margin-right: 20px;
+}
+.menu{
+width: max-content;
+display: flex;
+justify-content: space-between;
+}
+.nav{
+display: flex;
+font-size: 12px;
+}
+.grid{
+display: grid;
+grid-template-columns: 230px 130px;
+grid-template-rows: 150px 350px;
+gap: 10px;
+grid-row-gap:0px;
+grid-auto-rows: min-content;
+}
+.One{
+width: 220px;
+}
+
+.grid{
+display: grid;
+grid-row-gap: 10;
+gap: 10px;
+grid-column-gap: 0px;
+}
+.two{
+width: 90px;
+}
+.destop{
+width: 310px;
+}
+.third{
+width:100px;
+}
+.fourth{
+width: 100px;
+}
+.fifth{
+width: 130px;
+}
+.img5{
+width: 100px;
+height: 100px;
+}
+.seventh{
+width: 50px;
+height: 100px;
+}
+.img7{
+height: 100px;
+width: 100px;
+}
+.One{
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.two{
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+margin-right: 55px;
+margin-left: 0px;
+margin-bottom: 10px;
+}
+.third{
+height: max-content;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+.fourth{
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+background-color:rgb(255, 255, 255)
+}
+button,p{
+margin-left: 0px;
+}
+.fifth{
+grid-column-start: 1;
+grid-column-end:2;
+grid-row-start: 3;
+grid-row-end: 4;
+display: flex;
+}
+.sixth{
+display: flex;
+flex-direction: column;
+margin-left: 1px;
+line-height: -0px;
+margin-top: -10px;
+}
+.seventh{
+grid-column-start:2;
+grid-column-end: 3;
+grid-row-start: 3;
+grid-row-end: 4;
+display: flex;
+width: 130px;
+}
+.eight{
+margin-left: 1px;
+}
+.nine{
+grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+display: flex;
+width: 130px;
+}
+.ten{
+display: flex;
+flex-direction: column;
+margin-left: 1px;
+line-height: -0px;
+margin-top: -10px;
+}
+.lastImg{
+height: 100px;
+width: 100px;
+}
+.bright{
+font-size: 25px;
+}
+h2,h3,h5{
+font-size: 11px;
+}
+p{
+font-size: 6px;
+}
+h4{
+font-size:6px;
+text-align: center;
+line-height: 7px;
+}
+}
+.numbering{
+font-size: 5px;
+}
+
+.para{
+line-height: 5px;
+font-size: 6px;
+text-align: center;
+}
